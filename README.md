@@ -73,7 +73,7 @@ streamlit run main.py
 
 ## Project Structure
 
-```
+```sh
 .
 ├── main.py                  # Streamlit app entry point
 ├── pipeline/                # Modular ML pipeline (data, preprocess, models)
@@ -109,7 +109,7 @@ Please cite our work if you use this project in your research.
 - Jasmin Patel
 - Pratham Patel
 - May Patel
-- Shankar Paramar
+- Prof. Dr. Shankar Paramar
 
 Department of Computer Engineering, Government Engineering College, Bharuch, India
 
