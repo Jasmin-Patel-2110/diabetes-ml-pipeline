@@ -1,6 +1,8 @@
 # Diabetes Risk Predictor: Machine Learning-Based Early Diagnosis
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)](YOUR_STREAMLIT_APP_URL_HERE)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)](https://diabetes-ml-pipeline.streamlit.app/)
+
+![App Screenshot](assets/app_screenshot.png)
 
 ## Overview
 
@@ -8,7 +10,7 @@ This project implements a robust, research-backed machine learning pipeline and 
 
 **“Diabetes Diagnosis Using Machine Learning: High-Accuracy Predictive Modeling with Diverse Data Sources and Methods”**  
 _Jasmin Patel, Pratham Patel, May Patel, Shankar Paramar_  
-(See [`Manuscript_090.pdf`](Manuscript_090.pdf) for the full paper.)
+(See [`Diabetes_Diagnosis_using_Machine_Learning.pdf`](Diabetes_Diagnosis_using_Machine_Learning.pdf) for the full paper.)
 
 ---
 
@@ -47,17 +49,17 @@ Our research leverages machine learning (ML) to:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/Jasmin-Patel-2110/diabetes-ml-pipeline.git
+cd diabetes-ml-pipeline
 ```
 
 ### 2. Install Dependencies
 
 ```bash
-uv pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
-_(or use `pip install -r requirements.txt` if not using uv)_
+_(or use `uv pip install -r requirements.txt` if using uv)_
 
 ### 3. Run the App
 
@@ -67,7 +69,7 @@ streamlit run main.py
 
 ### 4. Try the Live Demo
 
-[Live Streamlit App](YOUR_STREAMLIT_APP_URL_HERE)
+[Live Streamlit App](https://diabetes-ml-pipeline.streamlit.app/)
 
 ---
 
@@ -75,13 +77,15 @@ streamlit run main.py
 
 ```sh
 .
-├── main.py                  # Streamlit app entry point
-├── pipeline/                # Modular ML pipeline (data, preprocess, models)
-├── data/                    # Datasets (Pima, Frankfurt)
-├── requirements.txt         # All dependencies
-├── Manuscript_090.pdf       # Full research paper
-├── final_code.ipynb         # Research notebook (experiments, results)
-└── README.md                # This file
+├── main.py                                         # Streamlit app entry point
+├── pipeline/                                       # Modular ML pipeline (data, preprocess, models)
+├── data/                                           # Datasets (Pima, Frankfurt)
+├── assets/                                         # Contains app screenshot
+├── requirements.txt                                # All dependencies
+├── Diabetes_Diagnosis_using_Machine_Learning.pdf   # Full research paper
+├── final_code.ipynb                                # Research notebook (experiments, results)
+├── LICENSE                                         # MIT License
+└── README.md                                       # This file
 ```
 
 ---
@@ -99,7 +103,7 @@ streamlit run main.py
 
 ## Research Paper
 
-The full methodology, experiments, and results are detailed in [`Manuscript_090.pdf`](Manuscript_090.pdf).  
+The full methodology, experiments, and results are detailed in [`Diabetes_Diagnosis_using_Machine_Learning.pdf`](Diabetes_Diagnosis_using_Machine_Learning.pdf).  
 Please cite our work if you use this project in your research.
 
 ---
